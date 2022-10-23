@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import Pokemon404 from '../components/home/pokedex/PokedesByID/Pokemon404'
 import './styles/PokedexById.css'
 const PokedexById = ({url}) => {
@@ -28,6 +28,7 @@ const PokedexById = ({url}) => {
 
   return (
     <article className='pokedesById'>
+      
       <div className='pokedesById_conatiner_card'>
       <header className='pokedesById_container'>
          
@@ -35,6 +36,9 @@ const PokedexById = ({url}) => {
         
       </header >
       <section className='pokedesById_body'>
+      <h1 className="pokedesById__title-link">
+        <Link to='/pokedex'>pokemon</Link>
+        </h1>
             <h3 className={`card-poke_name letter-${pokemon?.types[0].type.name}`}> {pokemon?.name}</h3>
             <ul className='card-poke_types-container'>
                 {

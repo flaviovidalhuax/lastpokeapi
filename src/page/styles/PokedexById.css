@@ -49,6 +49,17 @@
     height: 100%;
 
 }
+.pokedesById__title-link{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pokedesById__title-link:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color: aliceblue;
+}
 
 
   
