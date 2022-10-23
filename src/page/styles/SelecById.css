@@ -1,0 +1,16 @@
+.SelecById{
+    background-color: #79c3e0;
+    --color: #19bc8b;
+    --hover: #1973bc;
+
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+
+    box-shadow: 0.3em 0.3em 0 0 var(--color), inset 0.3em 0.3em 0 0 var(--color);
+}
+.SelecById:hover, .SelecById:focus{
+    box-shadow: 0 0 0 0 var(--hover), inset 6em 3.5em 0 0 var(--hover);
+}

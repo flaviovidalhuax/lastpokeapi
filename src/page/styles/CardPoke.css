@@ -1,0 +1,158 @@
+.card-poke{ 
+ 
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    grid-template-rows: repeat(auto-fit, minmax(210px,1fr));
+
+}
+.card-poke_header{
+    height: 200px;
+    background-color: green;
+    position: relative;
+    margin-bottom: 60px;
+    border-radius: 3px 3px 0 0 ;
+}
+.card-poke_sprite{
+    width: 60%;
+    position: absolute;
+    top:40px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.card-poke_body{ 
+margin-bottom: 30px;
+}
+.card-poke_name{ 
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.card-poke_types-container{  
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.card-poke_type{ 
+    font-size: 17px;
+    text-transform: capitalize;
+    position: relative;
+}
+.card-poke_type:nth-child(2)::before{ 
+    content: '/';
+    position: relative;
+    left: -5px;
+}
+.card-poke_type-label{ 
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+
+}
+.card-poke_stat-continer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px 5px;
+  
+    align-items: center;
+    padding: 0 5px 35px;
+}
+.card-poke_stat{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-poke_stat-label{
+    color: #999;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.card-poke_stat-number{
+    font-size: 18px;
+
+}
+/*border color*/
+.border-grass{
+    border-color: #8ab896;
+}
+.border-fire{
+    border-color: #E75C35;
+}
+.border-water{
+    border-color: #1479FB;
+}
+.border-bug{
+    border-color: #14f3fb;
+}
+.border-normal{
+    border-color: #fff;
+}
+.border-poison{
+    border-color: #adeabb;
+}
+.border-fairy{
+    border-color: #f9e8fa;
+}
+.border-electric{
+    border-color: #ffe100;
+}
+.border-ground{
+    border-color: #7e784b;
+}
+/*backgraunds*/
+.bg-grass{
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+}
+.bg-fire{
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #fff9 125.27%);
+}
+.bg-water{
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+}
+.bg-bug{
+    background: linear-gradient(179.57deg, #133258 -70.14%, #14f3fb 56.16%, #82B2F1 214.85%);
+}
+.bg-normal{
+    background: linear-gradient(179.57deg, #133258 -70.14%, #FFF 56.16%, #FFF9 214.85%);
+}
+.bg-poison{
+    background: linear-gradient(179.57deg, #133258 -70.14%, #adeabb 56.16%, #FFF9 214.85%);
+}
+.bg-fairy{
+    background: linear-gradient(179.57deg, #133258 -70.14%, #f9e8fa 56.16%, #FFF9 214.85%);
+}
+.bg-electric{
+    background: linear-gradient(179.57deg, #133258 -70.14%, #ffe100 56.16%, #FFF9 214.85%);
+}
+.bg-ground{
+    background: linear-gradient(179.57deg, #133258 -70.14%, #7e784b 56.16%, #FFF9 214.85%);
+}
+/*border color*/
+.letter-grass{
+    border-color: #8ab896;
+}
+.letter-fire{
+    border-color: #E75C35;
+}
+.letter-water{
+    border-color: #0e58b9;
+}
+.letter-bug{
+    border-color: #82B2F1;
+}
+.letter-normal{
+    border-color: #fff;
+}
+.letter-poison{
+    border-color: #e15408;
+}

@@ -1,0 +1,55 @@
+.pokedesById{
+    top: 0;
+   
+    background-image: url(https://i.pinimg.com/564x/89/a8/9d/89a89d968151589a3cc24d41be5a503b.jpg);
+    background-size:cover;
+    width: 100vw;
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: .5rem;
+    margin-bottom: 2rem;
+    position: fixed;
+    z-index: 10000;
+   
+}
+.pokedesById_conatiner_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: aliceblue;
+    border-radius:1rem;
+    overflow: hidden;
+
+    width: 100%;
+    max-width:fit-content;
+    height: 50rem;
+}
+.pokedesById_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60%;
+    max-width:max-content;
+
+}
+.pokedesById_body{
+  
+
+    background-color: rgba(194, 194, 194, 0.6);
+    padding: 2rem;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+
+  
+ 

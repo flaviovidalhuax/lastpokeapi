@@ -1,0 +1,39 @@
+.pokedex{
+    width: 100vw;
+    margin-bottom: 100px;
+    
+
+}
+.pokedex_title{
+    margin: 20px;
+    text-transform: uppercase;
+}
+.pokedex_p{
+    font-weight: 800;
+}
+.pokedex_header{
+
+    content: center;
+    color: rgb(222, 100, 30);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{ 
+    width: 100vw;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+grid-template-rows: repeat(auto-fit, minmax(200px,1fr));
+gap: 10px;
+}
+.pokedex_aside{
+   
+    padding: 10px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

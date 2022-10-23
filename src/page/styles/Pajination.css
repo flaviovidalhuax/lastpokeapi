@@ -1,0 +1,33 @@
+.pagination{
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+
+    display: flex;
+    gap: 10px;
+    background-color: #79c3e0;
+}
+.pagination_container{
+    display: flex;
+    gap: 5px;
+
+}
+.pagination_prev,
+.pagination_next,
+.pagination_page{
+    cursor:pointer;
+    width: 35px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pagination_active{
+    background-color: var(--color-red);
+}
+.pagination_active:hover{
+    box-shadow: inset 0 0 0 5em var(#79c3e0);
+    transform: scale(1.2);
+
+}
